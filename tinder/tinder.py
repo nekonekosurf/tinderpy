@@ -9,7 +9,7 @@ class TinderBot():
     def login(self):
         self.driver.get('https://tinder.com')
         sleep(2)
-        fb_btn = self.find_element_by_xpath('//*[@id="content"]/div/div[1]/div/div/main/div/div[2]/div[2]/div/div/span/div[2]/button')
+        fb_btn = self.driver.find_element_by_xpath('//*[@id="content"]/div/div[1]/div/div/main/div/div[2]/div[2]/div/div/span/div[2]/button')
         fb_btn.click()
 
         #switch to login popup
@@ -18,6 +18,7 @@ class TinderBot():
         email_in = self.driver.find_element_by_xpath('//*[@id="email"]')
         email_in.send_keys('n*******@gmail.com')
         pass_in = self.driver.find_element_by_xpath('//*[@id="pass"]')
-        pass_in.send_keys('password')
+        email_in.send_keys(adress)
+        pass_in.send_keys(password)
         login_btn = self.driver.find_element_by_xpath('//*[@id="loginbutton"]')
         login_btn.click()

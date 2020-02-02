@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11ad7f81-33a3-4e8c-9481-76401f436312" name="Default Changelist" comment="" />
+    <list default="true" id="11ad7f81-33a3-4e8c-9481-76401f436312" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tinder.py" beforeDir="false" afterPath="$PROJECT_DIR$/tinder.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XFBA1ttNLDeB2B1UZl4H0a1bBn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,7 +30,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -42,9 +52,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="661" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580631837635">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="0" y="7" key="SettingsEditor" timestamp="1580644390234">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="0" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580644390234" />
+    <state x="470" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1580643248448">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="470" y="242" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580643248448" />
     <state x="661" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580631837635" />
   </component>
 </project>
