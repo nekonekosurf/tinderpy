@@ -1,2 +1,2 @@
-address = 'nekonekosurf'
-password = 'Kaneko88'
+address = 'nekonekosurf8888@gmail.com'
+password ='kusakabe88'

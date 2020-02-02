@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11ad7f81-33a3-4e8c-9481-76401f436312" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secrets.py" beforeDir="false" afterPath="$PROJECT_DIR$/secrets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tinder.py" beforeDir="false" afterPath="$PROJECT_DIR$/tinder.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,10 +56,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580644390234" />
-    <state x="470" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1580643248448">
+    <state x="470" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1580652175616">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="470" y="242" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580643248448" />
+    <state x="470" y="242" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580652175616" />
     <state x="661" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580631837635" />
   </component>
 </project>
