@@ -15,13 +15,25 @@ class TinderBot():
         # cookies = self.driver.find_element_by_xpath('//*[@id="content"]/div/div[2]/div/button')
         # cookies.click()
         sleep(2)
-        fb_btn = self.driver.find_element_by_xpath('//*[@id="content"]/div/div[1]/div/main/div[1]/div/div/div/div/header/div/div[2]/div[2]/button/span')
 
-        fb_btn.click()
+        while True:
+            try:
+                # fb_btn = self.driver.find_element_by_xpath('//*[@id="content"]/div/div[1]/div/main/div[1]/div/div/div/div/header/div/div[2]/div[2]/button/span')
+                fb_btn = self.driver.find_element_by_xpath('//*[@id="t-1801132545"]/div/div[1]/div/main/div[1]/div/div/div/div/header/div/div[2]/div[2]/button/span')
+
+
+                fb_btn.click()
+                break
+            except Exception:
+                sleep(2)
+                print("cant login google0")
         sleep(4)
         while True:
             try:
-                google=self.driver.find_element_by_xpath('//*[@id="modal-manager"]/div/div/div[1]/div/div[3]/span/div[1]/div/button/span[2]')
+                # google=self.driver.find_element_by_xpath('//*[@id="modal-manager"]/div/div/div[1]/div/div[3]/span/div[1]/div/button/span[2]')
+                google=self.driver.find_element_by_xpath('//*[@id="t--239073259"]/div/div/div[1]/div/div[3]/span/div[1]/div/button')
+
+
                 google.click()
                 break
             except Exception:
@@ -55,17 +67,21 @@ class TinderBot():
         sleep(8)
         while True :
             try:
-                geo=self.driver.find_element_by_xpath('//*[@id="modal-manager"]/div/div/div/div/div[3]/button[1]/span')
+                # geo=self.driver.find_element_by_xpath('//*[@id="modal-manager"]/div/div/div/div/div[3]/button[1]/span')
+                geo=self.driver.find_element_by_xpath('//*[@id="t--239073259"]/div/div/div/div/div[3]/button[1]')
+
                 geo.click()
                 break
             except Exception:
                 print("!error!")
                 pass
         sleep(4)
-        self.driver.find_element_by_xpath('//*[@id="modal-manager"]/div/div/div/div/div[3]/button[2]/span').click()
+        # self.driver.find_element_by_xpath('//*[@id="modal-manager"]/div/div/div/div/div[3]/button[2]/span').click()
+        self.driver.find_element_by_xpath('//*[@id="t--239073259"]/div/div/div/div/div[3]/button[1]').click()
 
     def like(self):
-        like=self.driver.find_element_by_xpath('//*[@id="content"]/div/div[1]/div/main/div[1]/div/div/div[1]/div/div[2]/div[4]/button/span')
+        # like=self.driver.find_element_by_xpath('//*[@id="content"]/div/div[1]/div/main/div[1]/div/div/div[1]/div/div[2]/div[4]/button/span')
+        like=self.driver.find_element_by_xpath('//*[@id="t-1801132545"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div[2]/div[4]/button')
         like.click()
 
     def dislike(self):
@@ -82,10 +98,16 @@ class TinderBot():
         self.driver.find_element_by_xpath('//*[@id="modal-manager"]/div/div/div[2]/button[2]/span').click()
 
     def matched(self):
-        sentence='ごめん、待たせた！'
+        sentence=' '
         text_area=self.driver.find_element_by_xpath('//*[@id="chat-text-area"]')
         text_area.send_keys(sentence)
         self.driver.find_element_by_xpath('//*[@id="modal-manager-canvas"]/div/div/div[1]/div/div[3]/div[3]/form/button/span').click()
+
+        # self.driver.find_element_by_xpath('// *[ @ id = "t-1801132545"] / div / div[1] / div / main / div[1] / div / div / div / div / header / div / div[2] / div[2] / button / span').click()
+
+
+
+
     def auto_swipe(self):
         while True:
             sleep(1)
@@ -103,6 +125,7 @@ class TinderBot():
                         except Exception:
                             try:
                                 self.matched()
+                                print("match")
                             except Exception:
                                 print("error has occurered")
 
@@ -116,4 +139,4 @@ def main():
 if __name__ == '__main__':
     main()
 
-
+#pip install chromedriver-binary==76.0.3809.132
