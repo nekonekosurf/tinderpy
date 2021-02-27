@@ -84,6 +84,7 @@ class TinderBot():
         like=self.driver.find_element_by_xpath('//*[@id="t-1801132545"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div[2]/div[4]/button')
         like.click()
 
+
     def dislike(self):
         dislike=self.driver.find_element_by_xpath('//*[@id="content"]/div/div[1]/div/main/div[1]/div/div/div[1]/div/div[2]/div[4]/button/span')
         dislike.click()
